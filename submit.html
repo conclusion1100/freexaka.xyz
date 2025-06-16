@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit a Claim | XAKA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { background: #0f0f0f; color: #fff; font-family: Arial; padding: 20px; }
+    h1 { color: #ffcc00; }
+    form { max-width: 500px; margin-top: 20px; }
+    input, textarea, button {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px;
+      font-size: 1em;
+      border: none;
+      border-radius: 6px;
+    }
+    input, textarea {
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+    button {
+      background-color: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a { color: #ffcc00; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <a href="index.html">&larr; Back to Home</a>
+  <h1>Submit a Rugpull Claim</h1>
+  <form>
+    <input type="text" placeholder="Project Name" required />
+    <input type="text" placeholder="Loss Amount in USD or SOL" required />
+    <textarea placeholder="Proof (TXN link, Screenshot URL)" rows="5" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
